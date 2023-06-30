@@ -1,3 +1,4 @@
+import React from 'react'
 import './CartWidget.css'
 
 const CartWidget = () => {
@@ -5,7 +6,7 @@ const CartWidget = () => {
   return (
     <div>
       <img className='imgCarrito' src={imgCarrito} alt="Carrito" />
-      <strong> 7 </strong>
+      <strong className='strongCardWidget'> 7 </strong>
     </div>
   );
 };

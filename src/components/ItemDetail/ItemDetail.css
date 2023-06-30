@@ -1,0 +1,24 @@
+.detalle {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+} 
+
+.detalleCard {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #494646;
+        border-radius: 7%;
+        box-shadow: 0 2px 4px rgb(255, 255, 255);
+        width: 300px;
+        padding: 30px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+}
+
+.detalleImg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}

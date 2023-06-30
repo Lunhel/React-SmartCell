@@ -1,0 +1,25 @@
+.strongCustomHooks {
+    color: rgb(56, 165, 42);
+    padding: 30px;
+} 
+
+.tituloContador {
+    font-size: 35px;
+    color: rgb(0, 119, 255);
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+.contador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botonSubir {
+    padding: 10px;
+}
+
+.botonBajar {
+    padding: 10px;
+}

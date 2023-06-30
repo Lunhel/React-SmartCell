@@ -1,0 +1,21 @@
+.title {
+    text-align: left;
+    color: rgb(42, 85, 165);
+    font-size: 28px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    color: rgb(49, 133, 23);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    padding: 1px;
+}
+
+.lista li {
+    margin: 10px;
+}

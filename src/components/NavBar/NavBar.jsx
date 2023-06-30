@@ -1,18 +1,27 @@
+import React from 'react'
 import CartWidget from "../CartWidget/CartWidget"
-import "./Navbar.css"
+import { Link, NavLink } from 'react-router-dom'
+import "./NavBar.css"
 
 
-const TituloPrincipal = () => {
+const Navbar = () => {
   return (
     <header>
-      <h1 className="imgLogo"><img src="https://i.postimg.cc/DyZdTxpW/Logo-React.png" alt="Logo" /></h1>
+    <Link to={"/"}>
+     <h1 className="imgLogo">
+      <img src="https://i.postimg.cc/DyZdTxpW/Logo-React.png" alt="Logo" />
+      </h1>
+    </Link>
+      
       <nav>
         <ul>
-          <li>Inicio</li>
-          <li>Productos</li>
+          <li>
+            <NavLink to={`/categoria/1`}> Samsung </NavLink>
+          </li>
+          <li>
+            <NavLink to={`/categoria/2`}> Motorola </NavLink>
+          </li>
           <li>Contacto</li>
-          <li>Nosotros</li>
-          <li>Envios</li>
         </ul>
       </nav>
       <CartWidget/>
@@ -20,4 +29,4 @@ const TituloPrincipal = () => {
   )
 }
 
-export default TituloPrincipal
+export default Navbar
