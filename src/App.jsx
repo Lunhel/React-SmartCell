@@ -5,6 +5,7 @@ import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+//import Formulario from "./components/Eventos/Formulario/Formulario";
 //import JSONPlace from './components/JSONPlace/JSONPlace';
 //import CustomsHooks from './components/CustomsHooks/CustomsHooks';
 //import { Mensaje } from './components/Patrones/Mensaje';
@@ -43,7 +44,9 @@ function App() {
       <Login/>
       <CustomsHooks/>
       <JSONPlace/>
+      <Formulario />
       */}
+
     </div>
   );
 }
