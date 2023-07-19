@@ -6,6 +6,7 @@ import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailCont
 import Cart from "./components/Cart/Cart";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CarritoProvider } from "./context/CarritoContext";
+import Productos from "./components/Productos/Productos";
 
 //import Formulario from "./components/Eventos/Formulario/Formulario";
 //import JSONPlace from './components/JSONPlace/JSONPlace';
@@ -21,6 +22,7 @@ function App() {
   //const NuevoProducto = conAumento (Producto)
   return (
     <div>
+      <Productos/>
       <BrowserRouter>
         <CarritoProvider>
           <NavBar />
